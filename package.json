@@ -1,0 +1,17 @@
+{
+  "name": "ai-resume-analyzer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "server": "cd server && npm start",
+  "client": "cd server/client && npm start",
+  "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
